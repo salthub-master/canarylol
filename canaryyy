@@ -1,0 +1,5 @@
+gg.setRanges(gg.REGION_CODE_APP)
+gg.searchNumber("h04 00 A0 E1 E9 0D 00 EB", gg.TYPE_BYTE, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(8)
+gg.editAll("h10 8C BD E8 E9 0D 00 EB", gg.TYPE_BYTE)
+gg.clearResults()
